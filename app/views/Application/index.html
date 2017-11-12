@@ -1,0 +1,30 @@
+#{extends 'main.html' /}
+#{set title:'Integrate' /}
+<h1><b>Лабораторная 2</b></h1>
+<h2><it>Интегрирование методом трапеций</it></h2>
+<h3>Выполнил: студ. Антипов Матвей, группа P3202</h3>
+<table>
+    <td>
+    <form action="@{Application.integrate()}" method="get">
+        <label><b>Интегрировать:</b></label><br>
+        <input type="radio" name="functionType" value="1" checked><img src="http://mathurl.com/ycyopmlu.png"><br>
+        <input type="radio" name="functionType" value="2"><img src="http://mathurl.com/yb2sjlqs.png"><br>
+        <input type="radio" name="functionType" value="3"><img src="http://mathurl.com/y7vqvj9c.png"><br>
+        <input type="radio" name="functionType" value="4"><img src="http://mathurl.com/y9fanz8k.png"><br>
+        <label for="a">
+            <b>От:</b><br>
+        </label>
+        <input type="number" id="a" name="a" value="0" required><br>
+        <label for="b">
+            <b>До:</b><br>
+        </label>
+        <input type="number" id="b" name="b" value="1" required><br>
+        <label for="precision">
+            <b>С точностью:</b><br>
+        </label>
+        <input type="number" id="precision" name="precision" pattern="^(0|[1-9][0-9]*)$" value="3" required><br>
+        <input type="submit" value="Вычислить!">
+    </form>
+    </td>
+    <td></td>
+</table>

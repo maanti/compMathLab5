@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h3{
+    text-align: right;
+}
+form{
+    border: solid black;
+    background-color: paleturquoise;
+    width: 250px;
+    position:fixed;
+    left:36%;
+}
+#answer{
+    text-align: left;
+}
+body{
+    background-color: antiquewhite;
+}
