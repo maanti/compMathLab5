@@ -1,22 +1,22 @@
-h1{
-    text-align: center;
-}
-h2 {
-    text-align: center;
-}
-h3{
-    text-align: right;
-}
 form{
     border: solid black;
-    background-color: paleturquoise;
+    background-color: burlywood;
     width: 250px;
-    position:fixed;
-    left:36%;
+    padding: 20px;
+    text-align: center;
 }
 #answer{
-    text-align: left;
+    text-align: center;
 }
 body{
     background-color: antiquewhite;
 }
+div{
+    border: solid black;
+    margin: 10px;
+    text-align: center;
+}
+h1, h2, h3{
+    text-align: center;
+}
+

@@ -1,10 +1,11 @@
 #{extends 'main.html' /}
 
 #{set title:'Home' /}
-
-Вы проинтегрировали функцию <img src="${imgSrc}"> на промежутке [${a ?: '/A is not chosen/'}, ${b ?: '/B is not chosen/'}] с точностью ${precision ?: '/Precision is not chosen/'} знака(ов) после запятой.<br>
-<h2 id="answer">Ответ: ${result ?: 'Error'}</h2><br>
-Количество разбиений: ${prtsNum ?: '/Error/'}<br>
-Погрешность: ${inaccStr ?: '/Error/'}<br>
-<img align="bottom" src="https://pp.userapi.com/c637426/v637426965/31abd/xMXm4E2F-zg.jpg"><br>
-<a href="@{Application.index()}">Back to form</a>
+<div>
+    Вы проинтегрировали функцию <img src="${imgSrc}"><br>на промежутке [${a ?: '/A is not chosen/'}, ${b ?: '/B is not chosen/'}] с точностью ${precision ?: '/Precision is not chosen/'} знака(ов) после запятой.<br>
+    <h2 id="answer">Ответ: ${result ?: 'Error'}</h2><br>
+    Количество разбиений: ${prtsNum ?: '/Error/'}<br>
+    Погрешность: ${inaccStr ?: '/Error/'}<br>
+    <img align="bottom" src="https://cs6.pikabu.ru/post_img/2014/03/27/7/1395916954_449931403.png"><br>
+    <a href="@{Application.index()}">Back to form</a>
+</div>
